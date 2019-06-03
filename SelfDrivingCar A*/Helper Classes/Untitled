@@ -1,0 +1,87 @@
+def drive(self,goalstates,inputs):
+    """Write your algorithm for self driving car"""
+    #
+
+    searchList = [] #States eg {["location": (3,2), 10], ["location": (4,0),20]} All the cells that can reach towards the goal. Basically its the cells that have 0
+    #For each of the cells, applyaction. See if the distance is better their position. If better, then choose that path.
+
+    closedList = [] #All States that have been visited
+    #Maybe thats when you applyAction. See if the distance is better
+    #For each of the "doable" positions, calulate the distance to the Goal. Check with the current Action Sequence. if lesser, than use that one.
+
+    searchList.append([self.state, 15-self.state["location"][1]])
+
+    # print(goalstates)
+    # print(self.state)
+    # print(self.state["location"])
+
+    while(len(searchList) > 0):
+        print(searchList[0])
+        current = searchList[0]
+        searchList.remove(current)
+        closedList.append(current[0])
+
+        print (searchList)
+
+        #Obtain successor states.
+        for i in range(6):
+            for j in range(15):
+                #Empty tile is represented as a -1 in the 2D array
+                if(inputs[i][j] == 0):
+                    nextState = (i,j)
+                    newstate = {"location":nextState}
+                    action = self.env.getAction(self.state,newstate) #This is the new i in range
+                    newstate2 = self.env.applyAction(self,self.state,action)
+
+                    distanceToGoal = 15 - nextState[1]
+
+                    if(self.searchutil.isPresentStateInList(newstate2,goalstates)):
+                        print (retrieveActionSequenceFromState(newstate2))
+                        retrieveActionSequenceFromState(newstate2)
+                        break
+
+                    if(self.searchutil.isPresentStateInList(newstate2,closedList) == 0 and self.searchutil.isPresentStateInPriorityList(newstate2,searchList) == 0):
+                        self.searchutil.insertStateInPriorityQueue(searchList,newstate2,distanceToGoal)
+
+                    elif self.searchutil.isPresentStateInPriorityList(newstate2, searchList):
+                        self.searchutil.checkAndUpdateStateInPriorityQueue(searchList,newstate2,distanceToGoal)
+
+
+                        def drive(self,goalstates,inputs):
+                            """Write your algorithm for self driving car"""
+                            searchList = []
+                            closedList = []
+                            counter = 0
+                            #Find the first step in which the car can take, then add it into priority queue.
+                            if counter == 0:
+                                for i in range(6):
+                                    for j in range(15):
+                                        #Empty tile is represented as a -1 in the 2D array
+                                        if(inputs[i][j] == 0):
+                                            nextState = (i,j)
+                                            newstate = {"location":nextState}
+                                            score = len(self.action_sequence) + self.searchutil.heuristic(newstate)
+                                            self.searchutil.insertStateInPriorityQueue(searchList,newstate,score)
+                                            counter +=1
+
+                            #While Goal has not been reached,
+                            while (len(searchList) > 0):
+                                        current = searchList[0]
+                                        searchList.remove(current)
+                                        closedList.append(current[0])
+
+                                        for a in self.valid_actions:
+                                            newstate2 = self.env.applyAction(self,current[0],a)
+
+                                            score = len(self.action_sequence) + self.searchutil.heuristic(newstate2)
+
+                                            if(self.searchutil.isPresentStateInList(newstate2,goalstates)):
+                                                print(self.searchutil.retrieveActionSequenceFromState(newstate2))
+                                                return self.searchutil.retrieveActionSequenceFromState(newstate2)
+                                                break
+
+                                            if(self.searchutil.isPresentStateInList(newstate2,closedList) == 0 and self.searchutil.isPresentStateInPriorityList(newstate2,searchList) == 0):
+                                                self.searchutil.insertStateInPriorityQueue(searchList,newstate2,score)
+
+                                            elif self.searchutil.isPresentStateInPriorityList(newstate2, searchList) == 1:
+                                                self.searchutil.checkAndUpdateStateInPriorityQueue(searchList,newstate2,score)

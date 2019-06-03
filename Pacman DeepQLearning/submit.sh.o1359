@@ -1,0 +1,106 @@
+Beginning 1 episodes of Training
+Pacman Training Done (turning off epsilon and alpha)
+----------------------------------------------------
+Simple Pacman Trained  <qlearningAgents.PacmanBaseAgent object at 0x7f0c1697cac8>
+Beginning 50 episodes of Training
+Pacman Training Done (turning off epsilon and alpha)
+----------------------------------------------------
+Smart Pacman Trained  <qlearningAgents.PacmanBaseAgent object at 0x7f0c16507940>
+agentindex  1
+agentindex  2
+Beginning 80 episodes of Training Ghost
+Beginning 80 episodes of Training Ghost
+Max Time Reached
+Max Time Reached
+Ghost Trained with simple pacman
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Training Done for Ghost (turning off epsilon and alpha)
+-------------------------------------------------------
+Training Done for Ghost (turning off epsilon and alpha)
+-------------------------------------------------------
+Ghost Trained with smart pacman
+Running test episodes

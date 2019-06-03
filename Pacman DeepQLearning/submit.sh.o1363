@@ -1,0 +1,31 @@
+Beginning 1 episodes of Training
+Pacman Training Done (turning off epsilon and alpha)
+----------------------------------------------------
+Simple Pacman Trained  <qlearningAgents.PacmanBaseAgent object at 0x7f170c8a3ac8>
+Beginning 50 episodes of Training
+Pacman Training Done (turning off epsilon and alpha)
+----------------------------------------------------
+Smart Pacman Trained  <qlearningAgents.PacmanBaseAgent object at 0x7f170c37e908>
+agentindex  1
+agentindex  2
+Beginning 120 episodes of Training Ghost
+Beginning 120 episodes of Training Ghost
+Ghost Died
+Ghost Died
+Ghost Trained with simple pacman
+Reinforcement Learning Status:
+	Completed 100 out of 120 training episodes
+	Average Rewards over all training: 0.00
+	Average Rewards for last 100 episodes: -71.12
+	Episode took 111.16 seconds
+Reinforcement Learning Status:
+	Completed 100 out of 120 training episodes
+	Average Rewards over all training: 0.00
+	Average Rewards for last 100 episodes: -71.12
+	Episode took 111.16 seconds
+Training Done for Ghost (turning off epsilon and alpha)
+-------------------------------------------------------
+Training Done for Ghost (turning off epsilon and alpha)
+-------------------------------------------------------
+Ghost Trained with smart pacman
+Running test episodes

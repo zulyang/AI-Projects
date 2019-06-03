@@ -1,0 +1,228 @@
+Beginning 1 episodes of Training
+Pacman Training Done (turning off epsilon and alpha)
+----------------------------------------------------
+Simple Pacman Trained  <qlearningAgents.PacmanBaseAgent object at 0x7fb0235b2ac8>
+Beginning 50 episodes of Training
+Max Time Reached
+Max Time Reached
+Pacman Training Done (turning off epsilon and alpha)
+----------------------------------------------------
+Smart Pacman Trained  <qlearningAgents.PacmanBaseAgent object at 0x7fb02319a438>
+agentindex  1
+agentindex  2
+Beginning 200 episodes of Training Ghost
+Beginning 200 episodes of Training Ghost
+Max Time Reached
+Max Time Reached
+Max Time Reached
+Reinforcement Learning Status:
+	Completed 100 out of 200 training episodes
+	Average Rewards over all training: 0.00
+	Average Rewards for last 100 episodes: -140.48
+	Episode took 59.19 seconds
+Reinforcement Learning Status:
+	Completed 100 out of 200 training episodes
+	Average Rewards over all training: 0.00
+	Average Rewards for last 100 episodes: -140.48
+	Episode took 59.19 seconds
+Ghost Trained with simple pacman
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Ghost Died
+Reinforcement Learning Status:
+	Completed 200 out of 200 training episodes
+	Average Rewards over all training: 0.00
+	Average Rewards for last 100 episodes: -28.92
+	Episode took 31.59 seconds
+Training Done for Ghost (turning off epsilon and alpha)
+-------------------------------------------------------
+Reinforcement Learning Status:
+	Completed 200 out of 200 training episodes
+	Average Rewards over all training: 0.00
+	Average Rewards for last 100 episodes: -28.92
+	Episode took 31.59 seconds
+Training Done for Ghost (turning off epsilon and alpha)
+-------------------------------------------------------
+Ghost Trained with smart pacman
+Running test episodes
